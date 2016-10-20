@@ -66,9 +66,9 @@ public class DataBindingListActivity extends AppCompatActivity {
                     int responseCode = httpEx.getCode();
                     String responseMsg = httpEx.getMessage();
                     String errorResult = httpEx.getResult();
-                    // ...
+
                 } else { // 其他错误
-                    // ...
+
                 }
             }
 

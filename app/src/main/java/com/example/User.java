@@ -84,11 +84,12 @@ public class User extends BaseObservable {
     }
 
     public boolean longClickNickName(View view){
-        Toast.makeText(view.getContext(),"长按了昵称:"+nickName,Toast.LENGTH_SHORT).show();
+        Toast.makeText(view.getContext(),"长按了昵称:"+name,Toast.LENGTH_SHORT).show();
         return true;
     }
 
     public void click(View view){
-        setName(getName() + "( 已点击 )");
+        Toast.makeText(view.getContext(),"已点击",Toast.LENGTH_SHORT).show();
+       // setName(getName() + "( 已点击 )");
     }
 }
